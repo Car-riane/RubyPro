@@ -1,4 +1,4 @@
-def caesar_cipher(shift_num)
+def caesar_cipher(message, shift_num)
   puts 'Enter a message to encrypt: '
   message = gets.chomp
   encryption = ''
